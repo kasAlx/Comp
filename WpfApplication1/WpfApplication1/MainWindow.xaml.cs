@@ -29,7 +29,7 @@ namespace WpfApplication1
         static public int valueUP = 5;
         static public int timersec = 2;
         public int Salary = 100;
-        public int money = 10;
+        public int money = 100;
 
 
         class UserINF
