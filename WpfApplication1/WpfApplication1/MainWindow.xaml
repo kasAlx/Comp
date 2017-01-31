@@ -15,5 +15,6 @@
         <Button x:Name="MoodUP5" Content="Покушать (150 руб.)" HorizontalAlignment="Left" Margin="359,81,0,0" VerticalAlignment="Top" Width="144" Click="MoodUP5_Click"/>
         <Button x:Name="HealthUP5" Content="Покушать (150 руб.)" HorizontalAlignment="Left" Margin="359,37,0,0" VerticalAlignment="Top" Width="144" Click="HealthUP5_Click"/>
         <TextBlock x:Name="moneyTEXT" HorizontalAlignment="Left" Margin="214,31,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textMoney" HorizontalAlignment="Left" Margin="170,31,0,0" TextWrapping="Wrap" Text="Деньги:" VerticalAlignment="Top"/>
     </Grid>
 </Window>
