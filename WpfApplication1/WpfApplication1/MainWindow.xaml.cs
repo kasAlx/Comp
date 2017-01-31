@@ -77,6 +77,19 @@ namespace WpfApplication1
              Health.Value--;
              money = money + Salary;
              moneyTEXT.Text = Convert.ToString(money);
+            if (money < 400)
+            {
+                SatietyUP5.IsEnabled = false;
+                MoodUP5.IsEnabled = false;
+                HealthUP5.IsEnabled = false;
+            }
+            else
+            {
+                SatietyUP5.IsEnabled = true;
+                MoodUP5.IsEnabled = true;
+                HealthUP5.IsEnabled = true;
+            }
+
              Satiety.Value = Satiety.Value - timersec;
              Mood.Value = Mood.Value - timersec;
             if (Health.Value <= 30)
